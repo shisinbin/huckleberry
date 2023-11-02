@@ -125,3 +125,19 @@ Grays:
 **Workshops are submitted through the course platform.** Commit your changes, push them to your fork, and submit the link by clicking the "Complete lesson" button on the workshop page.
 
 If you're not comfortable with Git, you can upload a `.zip` file using Dropbox or Google Drive, and paste a link to the public file instead.
+
+## Note to self
+
+> This was a redo attempt. A sort of refresher. I mostly followed along with the solution video, pausing occasionally to attempt doing things on my own. This was what I put down in the README after completing the challenge months ago:
+
+This was a CSS challenge to lay out a landing page using CSS flow layout. In other words, could I lay out a responsive web page using just margin, border and padding and nothing else?
+
+I gained some practise and understanding of which units to use for different CSS properties. For example, rem seems to be most appropriate for font sizes for accessibility reasons, whereas pixels are better placed for margin and padding in most situations (an example where it might be better to use rem instead of px for margin is the margin-bottom of a paragraph, as when the font size increases it makes sense for the space below the paragraph to expand in kind).
+
+I gained an appreciation for the benefit of using a wrapper element to help position sections, I also gained some practise with using hsl instead of hex codes for the color as they're more intuitive (for example, if I wanted a slightly darker colour for a border-bottom then I could just decrease the lightness of the color being used by 10%).
+
+Using Figma to help with the specifics of colors, borders, pixels, etc, was a lot of fun.
+
+Perhaps the coolest thing was understanding how to use negative margins to help in scenarios where you want text to be aligned. For example, say you have two sections and for each you use a wrapper element to position them (the wrapper element comes with some padding, say). The first section has simple text. The second has a card element that includes padding and text. In order to offset the card's padding so that the text is in line with the text in the section above, a really useful technique is to use negative margins.
+
+Overall, this was a pretty cool workshop which got me thinking about how to use what I'd learnt up to this point to achieve the required layout. It was difficult to curb the instinctive desire to use flexbox or grid, but looking back I like how the challenge got me trying to think more intuitively about CSS.
